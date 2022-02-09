@@ -1,8 +1,11 @@
 .ms_h1{
     color: #0d6e2a;
     text-align: center;
+    font-size: 2.5em;
 }
 
 .ms_img{
-   width: 100%;
+   margin: 10px auto;
+   text-align:center;
+   display:block;
 }
