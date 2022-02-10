@@ -9,7 +9,9 @@
 </head>
 <body>
     
-    <div id="root">
+    <!--per evitare di visualizzare i contenuti prima che si carichi lo script di 
+        vue aggiungere al div v-cloak e definirlo display none nel css-->
+    <div id="root" v-cloak>
         <main>
            <h1 :class="classe">{{message}}</h1> 
            <img :class="img.class" :src="img.image" :alt="img.description">

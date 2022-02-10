@@ -9,3 +9,8 @@
    text-align:center;
    display:block;
 }
+
+/*per evitare di visualizzare i contenuti prima che si carichi lo script di vue*/
+[v-cloak] {
+    display: none;
+}
